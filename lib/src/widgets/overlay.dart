@@ -45,7 +45,7 @@ class DescribedFeatureOverlay extends StatefulWidget {
   /// It is intended for this to contain a [Text] widget, however, you can pass
   /// any [Widget].
   /// The overlay uses a [DefaultTextStyle] for the title, which is a combination
-  /// of [TextTheme.headline6] from [Theme] and the [textColor].
+  /// of [TextTheme.titleLarge] from [Theme] and the [textColor].
   final Widget? title;
 
   /// This is the second content widget, i.e. it is displayed below [description].
@@ -53,7 +53,7 @@ class DescribedFeatureOverlay extends StatefulWidget {
   /// It is intended for this to contain a [Text] widget, however, you can pass
   /// any [Widget].
   /// The overlay uses a [DefaultTextStyle] for the description, which is a combination
-  /// of [TextTheme.bodyText2] from [Theme] and the [textColor].
+  /// of [TextTheme.bodyMedium] from [Theme] and the [textColor].
   final Widget? description;
 
   /// This is usually an [Icon].
